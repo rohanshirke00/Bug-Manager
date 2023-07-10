@@ -1,0 +1,33 @@
+POST http://localhost:5000/api/bug
+Content-Type: application/json
+
+{
+    "name":"Isue 5",
+    "status":"Open",
+    "location":"Throughout project 5",
+    "description":"xyz 5",
+    "priority":"Normal"
+}
+
+
+
+###
+GET http://localhost:5000/api/bug
+Content-Type: application/json
+
+
+
+###
+PUT http://localhost:5000/api/bug/643593a92686facd654c9483
+Content-Type: application/json
+
+{
+    "priority": "Low"
+}
+
+
+
+###
+DELETE  http://localhost:5000/api/bug/6436f9ddffd4477a4d7f72f2
+Content-Type: application/json
+
